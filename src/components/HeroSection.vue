@@ -2,9 +2,9 @@
     <div class="relative h-screen bg-cover bg-center"
         :style="{ backgroundImage: `url('${require('@/assets/Vector.png')}')`, backgroundColor: '#1E3036' }">
         <div class="absolute top-0 left-5">
-            <img src="@/assets/Elevate-HR-Logo.png" alt="Elevate HR Logo" class="w-56 h-auto md:w-64" />
+            <img src="@/assets/Elevate-HR-Logo.png" alt="Elevate HR Logo" class="w-56 h-auto pt-8 pl-8 md:w-64" />
         </div>
-        <div class="absolute top-0 right-5">
+        <div class="absolute top-8 right-8">
             <button @click="toggleMenu" class="md:hidden text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">

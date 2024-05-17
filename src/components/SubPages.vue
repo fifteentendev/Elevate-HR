@@ -9,8 +9,8 @@
                 <div class="md:w-1/2 flex flex-col justify-between">
                     <div>
                         <h3 class="text-left text-3xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#1E3036]">
-                            Your Partner in HR<br />
-                            <span class="block mt-2">Recruitment Success</span>
+                            Your Partner in <span class="text-[#BCE272]">HR</span><br />
+                            <span class="block mt-2"><span class="text-[#BCE272]">Recruitment</span> Success</span>
                         </h3>
                         <p class="mt-8 text-left text-[#1E3036]">
                             Ut fugit prehento endelent dolest rem rerati dolorrovid qui optae voluptios molorro ribus,
@@ -70,7 +70,7 @@ export default {
     methods: {
         onClickRectangle(rectangleId) {
             alert(`Rectangle ${rectangleId} clicked`);
-            // Implement the logic for clicking the rectangle
+            
         }
     }
 }

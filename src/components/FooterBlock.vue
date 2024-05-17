@@ -4,7 +4,7 @@
         <div
             class="container mx-auto flex flex-col md:flex-row justify-between items-start text-white space-y-8 md:space-y-0 md:space-x-8 px-4 md:px-16">
             <!-- Left Column -->
-            <div class="md:w-1/3 flex flex-col items-start">
+            <div class="md:w-1/3 flex flex-col items-start pl-8">
                 <img src="@/assets/Elevate-HR-Logo.png" alt="Elevate HR Logo" class="w-32 h-auto md:w-56" />
             </div>
 
